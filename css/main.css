@@ -1,1 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Lato&display=swap");/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Lato&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}/*# sourceMappingURL=main.css.map */
