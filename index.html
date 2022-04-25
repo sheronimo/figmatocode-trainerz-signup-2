@@ -17,15 +17,15 @@
 		</header>
 
 		<main>
-			<div class="container">
+			<div class="container signup-container">
 				<h2 class="heading">Welcome Back</h2>
-				<img src="./img/showcase.svg" alt="" />
+				<img src="./img/showcase.svg" alt="" class="showcase-img" />
 				<form class="signup-form">
 					<div class="form-group">
 						<label for="fullname" class="label">Full Name</label>
 						<input
 							type="text"
-							class="input"
+							class="input-field"
 							name="fullname"
 							id="fullname"
 							placeholder="Enter Full Name"
@@ -35,7 +35,7 @@
 						<label for="phone" class="label">Phone Number</label>
 						<input
 							type="tel"
-							class="input"
+							class="input-field"
 							name="phone"
 							id="phone"
 							placeholder="Enter Phone Number"
@@ -45,7 +45,7 @@
 						<label for="email" class="label">Email Address</label>
 						<input
 							type="email"
-							class="input"
+							class="input-field"
 							name="email"
 							id="email"
 							placeholder="Enter Email Address"
@@ -55,21 +55,21 @@
 						<label for="password" class="label">Password</label>
 						<input
 							type="password"
-							class="input"
+							class="input-field"
 							name="password"
 							id="password"
 							placeholder="Enter Password"
 						/>
 					</div>
-					<p>
+					<p class="policy">
 						By creating an account you agree to the
 						<a href="#" class="link link-underline">terms of use</a> and our
 						<a href="#" class="link link-underline">privacy policy.</a>
 					</p>
 					<input type="submit" value="Sign Up" class="btn" />
-					<p>
+					<p class="policy account">
 						Already have an account?
-						<a href="#" class="link link-underline">Log in</a>
+						<a href="#" class="link">Log in</a>
 					</p>
 				</form>
 			</div>
