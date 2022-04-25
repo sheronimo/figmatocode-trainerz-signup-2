@@ -59,9 +59,6 @@ h6 {
 .navbar .logo {
   font-size: 1.125rem;
 }
-.navbar .menu-toggle {
-  padding: 0.78125rem;
-}
 .navbar .menu-toggle .cross {
   position: relative;
   width: 1.09375rem;
